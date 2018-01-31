@@ -23,17 +23,25 @@ body {
 }
 
 .nav__list {
-	font: 14px/24px Times New Roman, Regular;
+	font: 14px/24px "Times New Roman", serif;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
+	text-transform: uppercase;
+
 }
 
 .nav__list li {
 
 	display: inline-block;
 	padding: 0  45px;
+}
+.a1 a {
+	color: red !important;
+}
+.a1 a:hover {
+	text-decoration: underline;
 }
 
 .nav__list a {
@@ -43,8 +51,6 @@ body {
 
 .nav__list a:hover {
 	color: red;
-	background: #a6a6a6;
-
 }
 
 .nav__list a:active {
@@ -54,24 +60,25 @@ body {
 	margin-bottom: 50px;
 }
 .photodiary {
-	font: 14px/24px Arial, Regular;
+	font: 14px/24px Arial, sans-serif;
 	color: #b4ad9e;
 	padding: 0;
+	text-transform: uppercase;
 }
 .h1 {
 	color: #626262;
-	font-size: 36px;
+	font: bold 36px/24px "Times New Roman", serif;
 	margin-top: 25px;
 	margin-bottom: 11px;
 }
 .text1 {
-	font: 14px/24px Georgia, Regular;
+	font: 14px/24px Georgia, serif;
 	width: 915px;
 	color: #626262;
 }
 .h2 {
 	color: #626262;
-	font: 30px/24px Georgia, Regular;
+	font: bold 30px/24px Georgia, serif;
 }
 
 
@@ -80,22 +87,22 @@ body {
 	text-decoration: underline;
 }
 .unordered {
-	font: 14px/24px Georgia, Regular;
+	font:  14px/24px Georgia, serif;
 	padding: 0 17px;
 	color: #626262;
 }
 .h3 {
 	color: #626262;
-	font: 24px/24px Georgia, Regular;
+	font: bold 24px/24px Georgia, serif;
 	margin: 15px 0; 
 }
 .ordered {
-	font: 14px/24px Georgia, Regular;
+	font: 14px/24px Georgia, serif;
 	padding: 0 17px;
 	color: #626262;
 }
 .h4 {
-	font: 18px/24px Georgia, Regular;
+	font: bold 18px/24px Georgia, serif;
 	color: #626262;
 }
 .blockquote {
@@ -103,11 +110,34 @@ body {
 	color: #626262;
 	width: 910px;
 }
-.footer a {
-	font: 14px/24px Arial, Regular;
+.com a {
+	font: 14px/24px Arial, sans-serif;
 	color: #b4ad9e;
 	text-decoration: none;
+	text-transform: uppercase;
 }
-.footer a:hover {
+.com a:hover {
 	color: red;
+}
+.footer {
+	background-color: #f0f0f0;
+	font: 14px/24px "Times New Roman", serif;
+	text-align: right;
+
+}
+.footericons li{
+	display: inline-block;
+	list-style: none;
+	padding: 30px 10px 45px;
+}
+.li1 {
+	display: inline-block;
+	list-style: none;
+	padding: 30px 10px 45px;
+}	
+.footericons  {
+	transition: 1s;
+}
+.li1:hover {
+	transform: scale(1.1) !important;
 }
