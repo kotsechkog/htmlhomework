@@ -7,18 +7,15 @@ body {
 .header {
 	text-align: center;
 }
-
-/*a {
-	color: #000;
-	text-decoration: none;
-}*/
-
+.logo {
+	margin: 50px 0 40px 0;
+}
 .wrapper {
 	width: 1063px;
 	margin: 0 auto;
 }
 .nav {
-	margin: 40px 0 0 0;
+	margin: 0;
 }
 
 .nav__list {
@@ -58,55 +55,58 @@ body {
 .image1 {
 	margin-bottom: 50px;
 }
-.photodiary {
-	font: 14px/24px Arial, sans-serif;
-	color: #b4ad9e;
-	padding: 0;
-	text-transform: uppercase;
-}
-.h1 {
-	color: #626262;
-	font: bold 36px/24px "Times New Roman", serif;
-	margin-top: 25px;
-	margin-bottom: 11px;
-}
-.text1 {
+main {
 	font: 14px/24px Georgia, serif;
 	width: 915px;
 	color: #626262;
 }
-.h2 {
+main .photodiary {
+	font: 14px/24px Arial, sans-serif;
+	color: #b4ad9e;
+	padding: 0;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+main .h1 {
+	color: #626262;
+	font: bold 36px/24px "Times New Roman", serif;
+	margin-bottom: 11px; 
+}
+main p {
+	margin-bottom: 25px;
+}
+main .h2 {
 	color: #626262;
 	font: bold 30px/24px Georgia, serif;
+	margin-bottom: 30px;
 }
 
 
-.redtext {
-	color: red;
-	text-decoration: underline;
+.a2 {
+	color: red;	
 }
+
 .unordered {
-	font:  14px/24px Georgia, serif;
 	padding: 0 17px;
-	color: #626262;
+	margin-bottom: 25px;
 }
 .h3 {
 	color: #626262;
 	font: bold 24px/24px Georgia, serif;
-	margin: 15px 0; 
+	margin-bottom: 15px; 
 }
 .ordered {
-	font: 14px/24px Georgia, serif;
 	padding: 0 17px;
-	color: #626262;
+	margin-bottom: 25px;
+
 }
 .h4 {
 	font: bold 18px/24px Georgia, serif;
 	color: #626262;
+	margin-bottom: 30px;
 }
-.blockquote {
-	text-align: center;
-	color: #626262;
+main .blockquote {
+	text-align: center;	
 	width: 910px;
 }
 .com a {
@@ -125,17 +125,16 @@ body {
 
 }
 .social {
-	float: left;
+	float: right;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 .footer-text {
-	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 10px 0 900px;
 }
 .container {
-	max-width: 900px;
+	max-width: 1063px;
 	margin: 0 auto;
 }
 .container:after {
@@ -158,7 +157,7 @@ body {
 	width: 9px;
 }
 .social li .facebook:hover {
-	background-position: 0 -17px;
+	background-position: 0 -16px;
 }
 .social li .twitter {
 	width: 18px;
@@ -166,7 +165,7 @@ body {
 }
 .social li .twitter:hover {
 	width: 18px;
-	background-position: -25px -17px;
+	background-position: -25px -16px;
 }
 .social li .instagram {
 	width: 18px;
@@ -174,6 +173,6 @@ body {
 }
 .social li .instagram:hover {
 	width: 18px;
-	background-position: -60px -17px;
+	background-position: -60px -16px;
 }		
 	
